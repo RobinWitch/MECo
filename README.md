@@ -105,7 +105,7 @@ python scripts/2_build_dataset_mhubert1000.py
 
 ### Step 6: Three-Stage LLM Training
 
-Execute the three training commands in `scripts/3_train_llm.md` sequentially to complete the three-stage training of the LLM.
+Execute the three training commands in [scripts/3_train_llm.md](scripts/3_train_llm.md) sequentially to complete the three-stage training of the LLM.
 
 ## Evaluation
 
