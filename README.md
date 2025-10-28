@@ -36,7 +36,7 @@ cd ../
 
 ### Download Dataset
 
-Download BEAT2 dataset:
+Download origin BEAT2 dataset:
 ```bash
 huggingface-cli download H-Liu1997/BEAT2 \
   --repo-type dataset \
@@ -44,10 +44,16 @@ huggingface-cli download H-Liu1997/BEAT2 \
   --include "beat_english_v2.0.0/*"
 ```
 
-Download additional dataset from Google Drive:
+Download additional dataset preprocessing model from Google Drive:
 ```bash
 gdown https://drive.google.com/drive/folders/1MCks7CMNBtAzU2XihYezNmiGT_6pWex8?usp=drive_link -O ./dataset/hub --folder
 ```
+
+Download tokenized BEAT2 dataset:
+```bash
+git clone https://huggingface.co/datasets/robinwitch/meco_mhubert1000_beat2_2 dataset/meco_mhubert1000_beat2_2
+```
+
 
 ### Download mHuBERT Model
 ```bash
