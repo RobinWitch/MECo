@@ -10,7 +10,7 @@ conda activate meco
 
 Install torchtune as a submodule:
 ```bash
-git submodule add https://github.com/RobinWitch/torchtune.git torchtune
+git submodule update --init --recursive
 cd torchtune
 pip install -e .
 cd ../
