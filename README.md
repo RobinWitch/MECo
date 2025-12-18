@@ -27,6 +27,7 @@ pip install -r requirement_list.txt
 ```bash
 mkdir ckpt
 cd ckpt
+git clone https://huggingface.co/robinwitch/MECo_BEAT2_2_RVQVAE
 git clone https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct
 git clone https://huggingface.co/robinwitch/MECo_BEAT2_2_qwen2.5_0.5b_stage1
 git clone https://huggingface.co/robinwitch/MECo_BEAT2_2_qwen2.5_0.5b_stage2
